@@ -100,3 +100,14 @@ Aperte a letra i e cole o conteúdo:
 Aperte a tecla `:`, digite `wq` para salvar/sair e pressione enter. Pronto, para reiniciar o WSL com o comando `wsl --shutdown` no DOS ou PowerShell para testar. Após abrir o WSL novamente, digite o comando `docker ps` para avaliar se o comando não retorna a mensagem acima: `Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?`
 
 ## Configurar sua pasta local de projeto no docker
+
+Acessar pelo explorer o WSL:
+
+`\\wsl$`
+
+Botão direito sobre a pasta do SO "Ubuntu"
+
+Clicar em mais opções > Mapear unidade de rede
+
+Vai aparecer o projeto como unidade de rede em seu computador
+* Executar o VScode apartir da unidade de rede sem root para clonar os projetos
