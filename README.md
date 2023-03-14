@@ -10,6 +10,10 @@ Execute no windows terminal como adminstrador
 
 Reinicie a maquina
 
+### Baixar o pacote de atualização do kernel do Linux
+
+    https://aka.ms/wsl2kernel
+
 ### Atribua a versão default do WSL para a versão 2
 
     wsl --set-default-version 2
