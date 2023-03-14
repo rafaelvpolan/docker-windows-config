@@ -49,6 +49,10 @@ Instale os pré-requisitos:
         curl \
         gnupg \
         lsb-release
+        
+Se não der certo o comando acima, instale via script, siga os passos no link:
+
+    https://docs.docker.com/engine/install/ubuntu/#install-using-the-convenience-script
 
 Adicione o repositório do Docker na lista de sources do Ubuntu:
 
